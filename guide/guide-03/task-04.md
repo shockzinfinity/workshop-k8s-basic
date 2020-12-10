@@ -9,7 +9,7 @@ Deployment using replicaset
 guide-03/task-04/whoami-deploy.yml
 
 ```yml
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: whoami-deploy
@@ -53,7 +53,7 @@ kubectl rollout undo deploy/whoami-deploy --to-revision=3
 guide-03/task-04/whoami-deploy-strategy.yml
 
 ```yml
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: whoami-deploy
