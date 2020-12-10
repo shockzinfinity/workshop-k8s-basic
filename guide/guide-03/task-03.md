@@ -46,7 +46,7 @@ kubectl scale --replicas=3 -f whoami.yml
 guide-03/task-03/whoami-rs-scaled.yml
 
 ```yml
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: whoami-rs
