@@ -9,7 +9,7 @@ ReplicaSet -> Find pod by labels -> Create pod from template
 guide-03/task-03/whoami-rs.yml
 
 ```yml
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: whoami-rs
